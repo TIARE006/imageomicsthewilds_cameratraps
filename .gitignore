@@ -1,0 +1,43 @@
+# ---- Python env/cache ----
+.venv/
+__pycache__/
+*.py[cod]
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.ipynb_checkpoints/
+
+# ---- Large raw datasets (NEVER commit) ----
+data/raw/
+datasets/
+thewilds_cameratraps_full/
+New folder/
+
+# ---- Default ignore generated outputs/logs ----
+outputs/
+logs/
+results/
+data/
+
+# ---- Allow selected deliverables to be committed ----
+# 1) keep figures you choose under outputs/figures/
+!outputs/figures/
+!outputs/figures/**
+
+# 2) keep tables you choose under outputs/tables/
+!outputs/tables/
+!outputs/tables/**
+
+# ---- Optional: ignore all media everywhere EXCEPT the allowlisted outputs above ----
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.webp
+# *.heic
+# *.mp4
+# *.mov
+# *.mkv
+# *.avi
