@@ -41,3 +41,14 @@ data/
 # *.mov
 # *.mkv
 # *.avi
+
+# ---- allow ONLY these two output files ----
+outputs/
+!outputs/tables/
+!outputs/tables/arrivals/
+!outputs/tables/arrivals/minute_of_hour_dist.csv
+!outputs/tables/gaps/
+!outputs/tables/gaps/gaps_1h_fullrange.csv
+
+# keep other gap tables ignored (optional but matches your "only two results" goal)
+outputs/tables/gaps/gaps.csv
