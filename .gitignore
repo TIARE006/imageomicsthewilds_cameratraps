@@ -10,45 +10,20 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # ---- Large raw datasets (NEVER commit) ----
-data/raw/
+data/
 datasets/
 thewilds_cameratraps_full/
 New folder/
-
-# ---- Default ignore generated outputs/logs ----
-outputs/
 logs/
 results/
-data/
 
-# ---- Allow selected deliverables to be committed ----
-# 1) keep figures you choose under outputs/figures/
-!outputs/figures/
-!outputs/figures/**
+# ---- outputs: ignore everything by default ----
+outputs/**
 
-# 2) keep tables you choose under outputs/tables/
-!outputs/tables/
-!outputs/tables/**
-
-# ---- Optional: ignore all media everywhere EXCEPT the allowlisted outputs above ----
-# *.png
-# *.jpg
-# *.jpeg
-# *.gif
-# *.webp
-# *.heic
-# *.mp4
-# *.mov
-# *.mkv
-# *.avi
-
-# ---- allow ONLY these two output files ----
-outputs/
+# ---- allow ONLY these two output CSV files ----
+!outputs/
 !outputs/tables/
 !outputs/tables/arrivals/
 !outputs/tables/arrivals/minute_of_hour_dist.csv
 !outputs/tables/gaps/
 !outputs/tables/gaps/gaps_1h_fullrange.csv
-
-# keep other gap tables ignored (optional but matches your "only two results" goal)
-outputs/tables/gaps/gaps.csv
