@@ -1,29 +1,35 @@
 # ---- Python env/cache ----
+# Python
 .venv/
 __pycache__/
-*.py[cod]
+*.pyc
 
-# ---- OS / editor junk ----
-.DS_Store
-Thumbs.db
-.vscode/
-.ipynb_checkpoints/
+# Cache
+.cache/
 
-# ---- Large raw datasets (NEVER commit) ----
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Large/raw datasets
 data/
-datasets/
+thewilds_bioacousticmonitors_full/
 thewilds_cameratraps_full/
-New folder/
-logs/
-results/
+TW*/
+*.wav
+*.mp3
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
 
-# ---- outputs: ignore everything by default ----
-outputs/**
+# Generated outputs you may want to keep local only
+outputs/figures/
 
-# ---- allow ONLY these two output CSV files ----
-!outputs/
-!outputs/tables/
-!outputs/tables/arrivals/
-!outputs/tables/arrivals/minute_of_hour_dist.csv
-!outputs/tables/gaps/
-!outputs/tables/gaps/gaps_1h_fullrange.csv
+# OS/editor
+.DS_Store
+.vscode/

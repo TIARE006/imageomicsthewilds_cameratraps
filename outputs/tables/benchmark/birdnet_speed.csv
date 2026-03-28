@@ -1,0 +1,2 @@
+model,variant,device,batch_size,n_samples,total_time_s,avg_latency_ms,throughput_samples_per_s,notes,platform,processor,machine
+BirdNET,acoustic / 2.4 / tf,cpu,1,100,1905.7486323000048,19057.48632300005,0.052472817403684695,"single-audio-file inference on 100 audio files, excludes manifest creation",Windows-10-10.0.26200-SP0,"Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",AMD64
