@@ -1,0 +1,4 @@
+modality,model,variant,device,batch_size,n_samples,runs,mean_total_time_s,std_total_time_s,mean_latency_ms,std_latency_ms,mean_throughput,std_throughput
+audio,BirdNET,acoustic / 2.4 / tf,cpu,1,100,1,1905.7486,,19057.4863,,0.0525,
+image,BioCLIP,ViT-B-32 / openai,cpu,1,500,2,30.4257,1.6627,60.8514,3.3254,16.4581,0.8994
+image,YOLO,yolov8n.pt,cpu,1,500,2,19.3204,1.0452,38.6407,2.0904,25.9174,1.4021
